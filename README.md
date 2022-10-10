@@ -1,5 +1,5 @@
 IBM-Project-27453-1660056745
-<h1>University Admit Eligibility Predictor</h1>
+<h1>🎓 University Admit Eligibility Predictor</h1>
 
 <b>Category:</b> 
 Machine Learning

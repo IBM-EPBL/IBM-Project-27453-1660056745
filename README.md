@@ -15,7 +15,7 @@ Students are often worried about their chances of admission to University. The a
 <li>Sandeep V</li>
 <li>Sathya Prakash</li>
 <li>Sibi</li>
-<li>Aditya Subramani</li>
+<li>Adithya Subramani S</li>
 </ul>
 
 <b>Project Status:</b>

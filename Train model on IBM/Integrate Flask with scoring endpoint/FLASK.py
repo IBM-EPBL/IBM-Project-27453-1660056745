@@ -34,7 +34,7 @@ def index():
                         }
 
         response_scoring = requests.post(
-            'https://us-south.ml.cloud.ibm.com/ml/v4/deployments/fcb08da1-ca92-4142-aab9-6af6797d177c/predictions?version=2022-11-13', 
+            'https://us-south.ml.cloud.ibm.com/ml/v4/deployments/fcb08da1-ca92-4142-aab9-6af6797d177c/predictions?version=2022-11-13',
             json=payload_scoring,
             headers=header
         ).json()
@@ -50,15 +50,15 @@ def index():
 
 @app.route("/home")
 def demo2():
-    return render_template("demo2.html")
+    return render_template("HOME.html")
 
 @app.route("/chance/<percent>")
 def chance(percent):
-    return render_template("chance.html", content=[percent])
+    return render_template("Chance.html", content=[percent])
 
 @app.route("/nochance/<percent>")
 def no_chance(percent):
-    return render_template("noChance.html", content=[percent])
+    return render_template("No_Chance.html", content=[percent])
 
 @app.route('/<path:path>')
 def catch_all():

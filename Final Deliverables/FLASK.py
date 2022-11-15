@@ -50,15 +50,15 @@ def index():
 
 @app.route("/home")
 def demo2():
-    return render_template("demo2.html")
+    return render_template("HOME.html")
 
 @app.route("/chance/<percent>")
 def chance(percent):
-    return render_template("chance.html", content=[percent])
+    return render_template("Chance.html", content=[percent])
 
 @app.route("/nochance/<percent>")
 def no_chance(percent):
-    return render_template("noChance.html", content=[percent])
+    return render_template("No_Chance.html", content=[percent])
 
 @app.route('/<path:path>')
 def catch_all():

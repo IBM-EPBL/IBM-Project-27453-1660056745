@@ -24,8 +24,8 @@
 body {
     font: 62.5%/1.5 "Lucida Grande", "Lucida Sans", Tahoma, Verdana, sans-serif;
     background: #a3a9bde9;
-    background: -webkit-linear-gradient(to right, #5a6069, #5a6069);
-    background: linear-gradient(to right, #5a6069, #5a6069);
+    background: -webkit-linear-gradient(to right, #ADD8E6, #ADD8E6);
+    background: linear-gradient(to right, #ADD8E6, #ADD8E6);
     color: #000000;
     text-align: center;
 }

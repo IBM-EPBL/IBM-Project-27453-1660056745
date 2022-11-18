@@ -19,4 +19,4 @@ Students are often worried about their chances of admission to University. The a
 </ul>
 
 <b>Project Status:</b>
-In Progress >>> Completed the project 
+<i>Completed</i>

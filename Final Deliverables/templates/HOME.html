@@ -1,31 +1,30 @@
 {% extends 'index.html' %} {% block body %}
+
+
 <div class="main">
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
             <a class="navbar-brand text-responsive-h" href="/">
-                UNIVERSITY ADMIT ELIGIBILITY PREDICTOR
+                <img src="/static/img/logo.png"  alt="Logo" width="50" height="50" class="d-inline-block align-text-top ">UNIVERSITY ADMIT ELIGIBILITY PREDICTOR
                 <p>The Team ID : PNT2022TMID03986</p>
             </a>
         </div>
     </nav>
-    <div class="MAIN">
-        <p class="text-responsive,">
-            This university eligibility predictor is a tool created for individuals who have completed their
-            undergrad studies and hope to be accepted into prestigious colleges. It gives them the opportunity
-            to apply to several universities.based on specific standards related to their admissions procedure.
-            </p>
 
-    </div>
 </div>
 
-<div class="p-4">
+<div class="p-4" style="background-image:url('/static/img/img.png') ;
+                        background-repeat: no-repeat;
+                        background-attachment: fixed;
+                        background-size: 100% 100%;">
+    <p class="text-responsive,">
+            This university eligibility predictor is a tool created for individuals who have completed their
+            undergrad studies and hope to be accepted into prestigious colleges. It gives them the opportunity
+            to apply to several universities.Based on specific standards related to their admissions procedure.
+            </p>
     <div class="row mb-2">
         <div class="col-4">
-
-
         </div>
-
-
         <div class="row-6">
             <div class="card p-2 ms-2 my-2">
                 <div class="card-body">
@@ -33,7 +32,7 @@
                         Enter the details
                     </h5>
                     <div class="form">
-                        <form action="/" method="post" class="form-horizontal" id="theForm">
+                        <form action="/" method="post" class="form-horizontal" id="theForm"  >
                             <div class="row mb-3 ">
                                 <label for="gre" class="col-lg-2 col-form-label">GRE Score:</label>
                                 <div class="col-lg-10">
@@ -91,7 +90,7 @@
                                 <div class="col-lg-2 mb-2 me-3">
                                     <button type="submit" class="btn btn-primary" id="button">Predict</button>
                                 </div>
-                              
+
                                 </div>
                         </form>
                         </div>
